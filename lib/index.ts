@@ -7,7 +7,7 @@ if (!document.getElementById('css-normal')) {
   input {outline:0;-webkit-appearance:none}
   button {-webkit-appearance:none;outline:0;user-select:none}
   * { font-family: Arial, Helvetica, sans-serif; }
-  body { overflow: hidden; max-width: 100vw;}
+  body { overflow: hidden; width: 100vw;}
   body::-webkit-scrollbar { display:none; }
   `;
   document.head.append(normal);
